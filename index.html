@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/83bc789c26.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>        
+            <img src="andriod.png" class="andriod"> 
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Protfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+            <div class="header-text">
+                <p>Andriod Developer</p>
+                <h1>Hi, I'm <span>Buraque</span> <br> Sayed From Pakistan</h1>
+            </div>
+    </div>
+</div>
+
+<!-------------About----------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+             <img src="bg.png">
+        </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Buraque, and my journey in the tech world is a multifaceted adventure. 
+                    As the creator behind "Buraque's Code and Tech" on YouTube, 
+                    I'm dedicated to making programming accessible and enjoyable. 
+                    I teach a wide range of languages, from the foundational C and C++ to the versatile Python, 
+                    along with object-oriented programming (OOP). 
+                    My goal is to empower students to grasp these concepts and apply them creatively.
+                    Beyond teaching, I'm a seasoned Python and Android developer with experience in web and C# development. 
+                    My passion for technology goes hand in hand with my commitment to staying up-to-date with the latest trends and advancements. 
+                    Whether it's crafting elegant Python scripts or developing innovative Android apps, 
+                    I relish the creative challenges that tech offers. 
+                    Join me on this thrilling journey through code, creation, and continuous learning – 
+                    let's explore the ever-evolving tech landscape together.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Python development</span><br>Working on Diffrent Modules of Python</li>
+                            <li><span>Andriod development</span><br>Working on Andriod Studio</li>
+                            <li><span>Web development</span><br>Fronted and Backend development</li>
+                            <li><span>Desktop Development</span><br>Working on C#.NET</li>
+                            <li><span>Content Creator</span><br>Youtube Channel Buraque's Code and Tech</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2021- Current</span><br>Worked as a trainer in our institute, Also Created many Projects</li>
+                            <li><span>2022- Current</span><br>Doing this</li>
+                            <li><span>Web development</span><br>Worked on many Projects</li>
+                            <li><span>Desktop Development</span><br>Created 3 Desktop Applications</li>
+                            <li><span>2022- Current</span><br>Creating Conent Yet</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2019</span><br>SSC-part2 From Szabist Junior School Larkana</li>
+                            <li><span>2021</span><br>HSC-part2 From Government Boys Degree College Larkana</li>
+                            <li><span>2022</span><br>Studying Computer Science in Quaid-e-Awam University of Engnieering and Science Technolgy </li> 
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Python Development</h2>
+                <p>I'm an experienced Python developer with expertise in Kivy for mobile app development, 
+                    Google Colab for Android app conversion, Python Turtle for graphics, Matplotlib for data visualization, 
+                    and Django for web development. Whether you need mobile apps, visualizations, automation, 
+                    or web applications, I can turn your ideas into reality.</p>
+                <a href="https://github.com/Buraquescode">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile"></i>
+                <h2>Android Development</h2>
+                <p>I am an Android app developer with a strong background in Java and Android Studio. 
+                    I specialize in creating custom Android applications tailored to your unique needs. 
+                    My expertise extends to building intuitive and feature-rich mobile apps that deliver a seamless user experience. 
+                    Explore my portfolio to see how I can bring your app ideas to life and enhance your digital presence.</p>
+                <a href="https://github.com/Buraquescode">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web Design/Development</h2>
+                <p>I design responsive personal portfolios and develop web applications using HTML, 
+                    CSS, and JavaScript to help you make a strong online presence.</p>
+                <a href="https://github.com/Buraquescode">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Python-Developer-Skills.png">
+                <div class="layer">
+                    <h3>Python Developer</h3>
+                    <p>I have Worked on many projects on python, You may visit my GitHub</p>
+                    <a href="https://github.com/Buraquescode"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="zaman.jpg">
+                <div class="layer">
+                    <h3>Web Developer</h3>
+                    <p>I have Worked on many projects on Web Development, You may visit my GitHub</p>
+                    <a href="https://github.com/Buraquescode"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="ali5.jpg">
+                <div class="layer">
+                    <h3>Andriod Developer</h3>
+                    <p>I have Worked on many projects on andriod, You may visit my GitHub</p>
+                    <a href="https://github.com/Buraquescode"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Buraquescode" class="btn">See more</a>
+    </div>
+</div>
+<!---------------Contact-------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> buraquescode24@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +923033678667</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100088201091237&mibextid=haYZDX"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/sayed-buraque-1b2098284"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@buraquesayed"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://github.com/Buraquescode"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com/buraques_code_and_tech?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="cv.pdf" download class="btn btn2" >Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+       for (var i = 0; i < tablinks.length; i++) {
+           tablinks[i].classList.remove("active-link");
+       }
+       for (var i = 0; i < tabcontents.length; i++) {
+           tabcontents[i].classList.remove("active-tab");
+       }
+       
+       // Add the "active" class to the selected tab link and tab content
+       document.getElementById(tabname).classList.add("active-tab");
+       event.currentTarget.classList.add("active-link");
+    }
+</script>
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0"
+}
+function closemenu(){
+    sidemenu.style.right = "-200px"
+}
+
+</script>
+<form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbziJJMbbcZdhHe7xmVNIMmd_47_AJEq3BJLeUxs2FQwtgescKE7Bn01a3BWCfpXmgZ0Nw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+
+
+
+</body>
+</html>
